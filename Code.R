@@ -7,6 +7,10 @@ dengueseq
 dengue <- read.fasta(file = "sequence.fasta")
 dengueseq <- dengue[[1]]
 
+#The following command prints out the first 50 nucleotides of the DEN-1 Dengue virus genome sequence:
+
+dengueseq[1:50]
+
 #Length of a DNA sequence
 length(dengueseq)
 
@@ -37,7 +41,5 @@ denguetable[["g"]]
 
 
 
-#The following command prints out the first 50 nucleotides of the DEN-1 Dengue virus genome sequence:
 
-dengueseq[1:50]
 
